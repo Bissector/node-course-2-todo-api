@@ -24,7 +24,7 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
         _id: new﻿ObjectID("5af689d0d4cba9e5f840de2e")
     }, {
         $set: {
-            name: 'TJ' 
+            name: 'TJ'
         },
         $inc: {
             age: 1
